@@ -5,8 +5,9 @@
   "main": "/src/server.js",
   "scripts": {
     "build": "tsc",
+    "dev": "tsnd src/server.ts",
     "test": "jest",
-    "dev": "tsnd src/server.ts"
+    "test:staged": "jest"
   },
   "keywords": [],
   "author": {
