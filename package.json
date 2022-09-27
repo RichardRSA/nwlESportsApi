@@ -6,8 +6,8 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsnd src/server.ts",
-    "test": "jest",
-    "test:staged": "jest"
+    "test": "jest --passWithNoTests --watch",
+    "test:staged": "jest --passWithNoTests"
   },
   "keywords": [],
   "author": {
